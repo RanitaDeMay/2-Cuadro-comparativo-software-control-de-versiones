@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Quicksand&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('imagenes/bg.png')no-repeat;
+    background-size: cover;
+    overflow: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 80px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 1100px;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+thead {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 1px;
+    font-size: 1.1rem;
+    background: #b24202;
+}
+
+thead th:first-child{
+    border-radius: 15px 0 0 0;
+}
+
+thead th:last-child{
+    border-radius: 0 15px 0 0;
+}
+
+thead th {
+    padding: 15px;
+    min-width: 160px;
+}
+
+.header-titulo {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 300px;
+    padding: 20px;
+    gap: 20px;
+    place-content: center;
+}
+
+.header-titulo a {
+    text-decoration: none;
+    width: 70%;
+    align-self: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: solid;
+    border-color: #fff;
+    color: #fff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.05rem;
+}
+
+tbody th {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #fff;
+}
+
+tbody td {
+    padding: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+.git {
+    background: #fff;
+    color: #f34f29;
+}
+
+.git a {
+    background: #fff;
+    color:#f34f29;
+    border: solid;
+    border-color: #f34f29;
+    transition: background 0.3s;
+}
+
+.git a:hover {
+    background: #f34f29;
+    color:#fff;
+}
+
+.mercurial {
+    background:#627e91;
+}
+
+.mercurial a {
+    background: #627e91;
+    transition: background 0.5s;
+}
+
+.mercurial a:hover {
+    background: #43647c;
+}
+
+.fossil {
+    background:#4A707A;
+    border-radius: 0 0 0 15px;
+}
+
+.fossil a{
+    background: #4A707A;
+    transition: background 0.5s;
+}
+
+.fossil a:hover {
+    background: #305058;  
+}
+
+tbody tr:first-child {
+    background: white;
+}
+
+tbody tr:nth-child(2) {
+    background: #627e91f8;
+    color: white;
+}
+
+tbody tr:nth-child(3) {
+    background: #4a707af5;
+    color: white;
+}
+
+#td-fin{
+    border-radius: 0 0 15px 0;
+}
+
+.con {
+    width: 80%;
+    max-width: 1300px;
+    margin-top: 50px;
+    background: #4a707af5;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.8);
+    margin-bottom: 50px;
+}
+
+.con h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.2rem;
+}
+
+.con p {    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+}
